@@ -29,9 +29,50 @@ h1.header{
     padding-left: 24px;
 }
 
+.hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+
+.hero-header{
+    font-size:48px;
+    font-weight:bold;
+    color:#F9FAF8;
+}
+
+.hero-text{
+    font-size:18px;
+    color:#E5E7EB;
+    padding:0;
+    margin:0;
+}
+
 .links{
     display:flex;
     justify-content: space-between;
+}
+
+.hero-pic{
+    width:400px;
+    height:auto;
+    padding:3rem;
+}
+
+.hero-left{
+    width:400px;
+    display:flex;
+    flex-direction: column;
+}
+
+.signup1{
+    width:6rem;
+    margin-top:1rem;
+    color:white;
+    background-color:#3882F6;
+    border-color:#3882F6;
+    border-radius:.5rem;
 }
 
 /* information */
