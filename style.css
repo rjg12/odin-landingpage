@@ -70,9 +70,9 @@ h1.header{
 }
 
 .hero-left{
-    width:400px;
     display:flex;
     flex-direction: column;
+    flex-basis:400px;
 }
 
 .signup1{
