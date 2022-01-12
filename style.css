@@ -1,6 +1,7 @@
 /* general */
 body{
     font-family:Roboto,sans-serif;
+
 }
 
 a{
@@ -17,8 +18,15 @@ ul{
   align-items:center;
 }
 
+.container-main{
+    display:flex;
+    flex-direction:column;
+    flex:1;
 
-/* header */
+}
+
+
+/* header/hero */
 .container-one{
     background-color:#1F2937;
     color:white;
@@ -76,15 +84,52 @@ h1.header{
 }
 
 /* information */
+.info-head{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin:3rem;
+    text-align: center;
+}
+
 .container-two{
     background-color:white;
     color:#1F2937;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-text{
+    text-align: center;
+}
+
+.info{
+    display:flex;
+    justify-content: center;
+    gap:36px;
+    margin-bottom:3rem;
+}
+
+.info-box{
+    width: 200px;
+    display:flex;
+    flex-direction: column;
 }
 
 /* quote */
 .container-three{
     background-color:#E5E7EB;
     color:#1F2937;
+}
+
+.quote{
+
+}
+
+.thor{
+
 }
 
 /* call to action */
