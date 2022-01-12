@@ -78,6 +78,8 @@ h1.header{
 .signup1{
     width:6rem;
     margin-top:1rem;
+    padding:5px;
+    font-weight: bold;
     color:white;
     background-color:#3882F6;
     border-color:#3882F6;
@@ -146,4 +148,47 @@ h1.header{
 }
 
 /* call to action */
+
+.container-four{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box{
+    background-color:#3882F6;
+    margin:6rem;
+    padding:3rem;
+    width:800px;
+    border-radius: 10px;;
+    display:flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.cta-textcontainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.cta-header{
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-text{
+    color:#F9FAF8;
+}
+
+.signup2{
+    font-weight: bold;
+    padding:5px;
+    width:8rem;
+    color:white;
+    background-color:#3882F6;
+    border-color:#F9FAF8;
+    border-radius:5px;
+    font-weight: bold;
+}
 
