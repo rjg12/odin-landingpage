@@ -106,19 +106,20 @@ h1.header{
 
 .info-text{
     text-align: center;
+    width:200px;
 }
 
 .info{
     display:flex;
     justify-content: center;
-    gap:36px;
+    flex-wrap:wrap;
+    gap:48px;
     margin-bottom:6rem;
 }
 
-.info-box{
-    width: 200px;
-    display:flex;
-    flex-direction: column;
+.info img{
+    width:200px;
+    height: auto;
 }
 
 /* quote */
